@@ -1,0 +1,10 @@
+@import "styles/variables";
+@import "styles/mixins";
+@import "./assets/fonts/index";
+
+
+:global{
+  *{
+    box-sizing: border-box;
+  }
+}
