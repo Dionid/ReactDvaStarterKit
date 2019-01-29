@@ -12,36 +12,24 @@ interface IProps {
 }
 
 interface IState {
-
-}
-
-class Test extends React.Component<IProps, IState> {
-    public render() {
-        return (
-            <div className={ cx("") }>
-                ASdaSD!!!!!!!!!!
-                asdasd!!!!!!!!!!!
-            </div>
-        )
-    }
+    test: boolean
 }
 
 class MainLayout extends React.Component<IProps, IState> {
 
     public state = {
-
+        test: true,
     }
 
     public render() {
         return (
             <div className={ cx("") }>
-                Hello!21121111
-                <Test/>
+                Hello!
             </div>
         )
     }
 }
 
-export default connect(({ rooms, config }: IAppState) => {
+export default connect(({}: IAppState) => {
     return {}
 })(MainLayout)

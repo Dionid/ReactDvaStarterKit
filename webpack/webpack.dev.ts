@@ -49,7 +49,6 @@ const config = merge(commonConfig, {
         open: true,
         historyApiFallback: true,
         port: 8000,
-        // watchContentBase: true,
         hot: true,
     },
 })

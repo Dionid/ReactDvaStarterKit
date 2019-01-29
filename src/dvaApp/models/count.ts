@@ -13,7 +13,6 @@ const model: ICountModel = {
     namespace: "count",
     state: {
         value: 0,
-        test: true,
     },
     reducers: {
         add(count: ICountState) {
