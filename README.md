@@ -1,3 +1,12 @@
+## What's inside
+
+1. React
+1. Webpack
+1. Typescript (BabelC)
+1. Dva.js
+1. Jest
+1. Some utilities
+
 ## Dev
 
 ```
